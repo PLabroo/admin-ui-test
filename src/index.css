@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+ul {
+  list-style: none;
+}
+
+.admin-container {
+  margin: 1rem auto;
+  text-align: center;
+  max-width: 90vw;
+}
+.headings {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr 1fr;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border-bottom: 1px solid grey;
+  padding-bottom: 4px;
+}
+
+.each-member {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr 1fr;
+  border-bottom: 1px solid grey;
+  padding-top: 0.5rem;
+  padding-bottom: 10px;
+}
+
+.each-member .role {
+  text-transform: capitalize;
+}
+
+.outer-input {
+  margin: 1.2rem auto;
+  text-align: center;
+}
+.outer-input input {
+  width: 90vw;
+  border: 1px solid grey;
+  padding: 0.4rem;
+  border-radius: 5px;
+  height: 2rem;
+}
+
+.data input {
+  font-size: 1.2rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+i {
+  font-size: 1rem;
+}
+
+.actions .edit {
+  color: rgb(82, 82, 219);
+}
+
+.actions .delete {
+  color: rgb(224, 32, 32);
+}
+
+.pagination {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nums {
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+  margin-top: 0.5rem;
+}
+
+.name,
+.email,
+.role,
+.input-box {
+  text-align: left;
+}
+
+.input-box {
+  margin-left: 20px;
+}
+.grey {
+  background-color: rgba(0, 0, 255, 0.1);
+}
+
+.pagination button {
+  border: none;
+  outline: none;
+  color: rgb(82, 82, 219);
+}
+
+.nums button {
+  border-radius: 50%;
+  border: 1px solid rgb(17, 17, 231);
+  padding: 0.8rem;
+  color: rgba(0, 0, 0, 1);
+  cursor: pointer;
+  height: 0rem;
+  display: flex;
+  align-items: center;
+}
+
+.selected {
+  background-color: rgb(82, 140, 206);
+}
